@@ -14,6 +14,7 @@ function onSubmit() {
     }
 
     else if (value.toLowerCase() == "ten udupi yes") {
+        console.log(value);
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 2 : In</h1>
             <p

@@ -1,6 +1,6 @@
 function onSubmit() {
     const value = document.getElementById("case").value
-    if (value.toLowerCase() == "story 1") {
+    if (value.toLowerCase() == "6:00 Tango No") {
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 1 : Men</h1>
             <p
@@ -13,7 +13,7 @@ function onSubmit() {
             </p>`
     }
 
-    else if (value.toLowerCase() == "story 2") {
+    else if (value.toLowerCase() == "10:00 Udupi Yes") {
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 2 : In</h1>
             <p
@@ -26,7 +26,7 @@ function onSubmit() {
             </p>`
     }
 
-    else if (value.toLowerCase() == "story 3") {
+    else if (value.toLowerCase() == "4:25 Ground No") {
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 3 : Black</h1>
             <p
@@ -40,6 +40,6 @@ function onSubmit() {
     }
 
     else {
-        alert("Wrong Password. try again")
+        alert("Wrong Password. Try again")
     }
 }

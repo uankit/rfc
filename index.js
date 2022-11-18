@@ -1,6 +1,6 @@
 function onSubmit() {
     const value = document.getElementById("case").value
-    if (value.toLowerCase() == "6:00 Tango No") {
+    if (value.toLowerCase() == "six tango no") {
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 1 : Men</h1>
             <p
@@ -13,7 +13,7 @@ function onSubmit() {
             </p>`
     }
 
-    else if (value.toLowerCase() == "10:00 Udupi Yes") {
+    else if (value.toLowerCase() == "ten udupi yes") {
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 2 : In</h1>
             <p
@@ -26,7 +26,7 @@ function onSubmit() {
             </p>`
     }
 
-    else if (value.toLowerCase() == "4:25 Ground No") {
+    else if (value.toLowerCase() == "four twenty five ground no") {
         document.getElementById("c0").innerHTML = `
             <h1>Final Clue 3 : Black</h1>
             <p
